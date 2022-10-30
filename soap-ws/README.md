@@ -1,4 +1,4 @@
-## Création du serveur `JawWS` qui implémente le microservice `BankService`
+## Création du serveur `JaxWS` qui implémente le microservice `BankService`
 
 ### Configuration utilisé : 
 

@@ -1,0 +1,28 @@
+{
+    "name": "ubmagh/php-soap-client-example",
+    "description": "php script to consume a java soap service endpoints",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ayoub",
+            "email": "ubmagh@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^8.1",
+        "symfony/http-client": "6.2.x-dev",
+        "nyholm/psr7": "^1.5",
+        "phpro/soap-client": "^2.2"
+    },
+    "scripts": {
+        "run": "php src/index.php",
+        "autoload": "composer dump-autoload"
+    }
+}
