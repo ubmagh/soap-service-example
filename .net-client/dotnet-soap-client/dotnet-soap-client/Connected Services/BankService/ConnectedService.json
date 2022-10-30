@@ -1,0 +1,30 @@
+{
+  "ExtendedData": {
+    "inputs": [
+      "http://localhost:9191/?wsdl"
+    ],
+    "collectionTypes": [
+      "System.Array",
+      "System.Collections.Generic.Dictionary`2"
+    ],
+    "namespaceMappings": [
+      "*, BankService"
+    ],
+    "references": [
+      "Microsoft.Extensions.DependencyInjection, {Microsoft.Extensions.DependencyInjection, 6.0.0}",
+      "Microsoft.Extensions.DependencyInjection.Abstractions, {Microsoft.Extensions.DependencyInjection.Abstractions, 6.0.0}",
+      "Microsoft.Extensions.Http, {Microsoft.Extensions.Http, 6.0.0}",
+      "Microsoft.Extensions.Logging, {Microsoft.Extensions.Logging, 6.0.0}",
+      "Microsoft.Extensions.Logging.Abstractions, {Microsoft.Extensions.Logging.Abstractions, 6.0.0}",
+      "Microsoft.Extensions.Options, {Microsoft.Extensions.Options, 6.0.0}",
+      "Microsoft.Extensions.Primitives, {Microsoft.Extensions.Primitives, 6.0.0}",
+      "ServiceStack.Client, {ServiceStack.Client.Core, 6.4.0}",
+      "ServiceStack.Interfaces, {ServiceStack.Interfaces.Core, 6.4.0}",
+      "ServiceStack.Text, {ServiceStack.Text.Core, 6.4.0}",
+      "System.Diagnostics.DiagnosticSource, {System.Diagnostics.DiagnosticSource, 6.0.0}",
+      "System.Runtime.CompilerServices.Unsafe, {System.Runtime.CompilerServices.Unsafe, 6.0.0}"
+    ],
+    "targetFramework": "net6.0",
+    "typeReuseMode": "All"
+  }
+}

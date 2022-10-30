@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnet-soap-client", "dotnet-soap-client\dotnet-soap-client.csproj", "{A01B23B7-2BF4-4AEC-8D0E-E110863D7FD7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A01B23B7-2BF4-4AEC-8D0E-E110863D7FD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A01B23B7-2BF4-4AEC-8D0E-E110863D7FD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A01B23B7-2BF4-4AEC-8D0E-E110863D7FD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A01B23B7-2BF4-4AEC-8D0E-E110863D7FD7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9B1EE9C4-17C9-474C-8227-5585D8EAA2AE}
+	EndGlobalSection
+EndGlobal
