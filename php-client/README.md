@@ -1,5 +1,14 @@
 ## Créer le client php qui va consommer les méthodes de [soap-ws](../soap-ws)
 
+### Utiliser l'app :
+
+> voir la configuration & lancer le serveur JaxWS
+
+```
+$ composer install
+$ php ./src/index.php
+```
+
 ### Configuration utilisé : 
 
 ```
