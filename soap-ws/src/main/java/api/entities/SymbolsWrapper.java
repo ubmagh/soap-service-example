@@ -5,15 +5,15 @@ import jakarta.xml.bind.annotation.XmlRootElement;
 import java.util.HashMap;
 import java.util.Map;
 
-@XmlRootElement(name = "Symbols")
-public class Symbols {
+@XmlRootElement(name = "SymbolsWrapper")
+public class SymbolsWrapper {
     private boolean success;
     private Map<String, String> symbols = new HashMap<>();
 
-    public Symbols() {
+    public SymbolsWrapper() {
     }
 
-    public Symbols(boolean success, Map<String, String> symbols) {
+    public SymbolsWrapper(boolean success, Map<String, String> symbols) {
         this.success = success;
         this.symbols = symbols;
     }

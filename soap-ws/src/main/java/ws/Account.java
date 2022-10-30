@@ -49,4 +49,13 @@ public class Account {
     public void setCreated_at(Date created_at) {
         this.created_at = created_at;
     }
+
+    @Override
+    public String toString() {
+        return "{" +
+                " id=" + id +
+                ", balance=" + balance +
+                ", created_at=" + created_at +
+                " }";
+    }
 }

@@ -1,7 +1,7 @@
 package api;
 
 import api.entities.ConvertResult;
-import api.entities.Symbols;
+import api.entities.SymbolsWrapper;
 import com.google.gson.Gson;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
@@ -24,7 +24,7 @@ public class ApiService {
     }
 
 
-    public Symbols getSymbols() throws IOException {
+    public SymbolsWrapper getSymbols() throws IOException {
         Request request = new Request.Builder()
                 .url( apiEndPoint + "symbols")
                 .addHeader("apikey", apiKey)
@@ -32,7 +32,7 @@ public class ApiService {
             .build();
         Response response = httpClient.newCall(request).execute();
         String json =  response.body().string();
-        Symbols symbols = gson.fromJson(json, Symbols.class);
+        SymbolsWrapper symbols = gson.fromJson(json, SymbolsWrapper.class);
         return symbols;
     }
 

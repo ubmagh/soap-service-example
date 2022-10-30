@@ -60,7 +60,7 @@ public ConvertResult convert( String from, String to, String amount) throws IOEx
 @WebService(name = "BankWS")
 public class BankService {
 
-    private static Symbols symbols;
+    private static SymbolsWrapper symbols;
     private ApiService apiService;
 
     public BankService(){
@@ -69,8 +69,8 @@ public class BankService {
     }
 
     @WebMethod(operationName = "GetSymbols")
-    public Symbols getSymbols(){
-        Symbols symbols=null;
+    public SymbolsWrapper getSymbols(){
+        SymbolsWrapper symbols=null;
         try{
             symbols = this.apiService.getSymbols();
         } catch ( Exception exc ){

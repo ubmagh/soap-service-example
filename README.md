@@ -12,7 +12,10 @@
 
 ## Réalisation : 
 
-[ 👉 Créer le service web `BankService` et l'implémenter dans un serveur JaxWS ](./soap-convertor)
+[ 👉 Créer le service web `BankService` et l'implémenter dans un serveur JaxWS ](./soap-convertor/)
+
+
+[ 👉 Créer le client java ](./java-client/)
 
 
 
