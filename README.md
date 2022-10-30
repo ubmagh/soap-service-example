@@ -23,6 +23,7 @@
 
 [ 👉 Créer le client .Net6 ](./.net-client/)
 
+[ 👉 client python ](./py-client/)
 
 
 > end. <
